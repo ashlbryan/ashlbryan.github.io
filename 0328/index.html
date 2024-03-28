@@ -36,7 +36,7 @@
 <body style="margin:10px;">
     <div id="tbldiv"></div>
     <br/>
-    <button id="btn1" class="btn btn success">
+    <button id="btn1" class="btn btn-success">
         Load Data
         <span style="font-size:20px;">
         <i class="bi bi-download"></i>
@@ -56,7 +56,7 @@
          async function showTbl()
         {
             //we get the data
-             let url = https://juxinglong.github.io/static/data/cities.json ;
+             let url = `https://juxinglong.github.io/static/data/cities.json` ;
                  let opts = {
 
                  };
@@ -68,7 +68,7 @@
             let tbldiv = document.querySelector("#tbldiv");
             if (gridtbl != null)
             {
-                gridtbl.destroy();]
+                gridtbl.destroy();
             }
             tbldiv.innerHTML = ``;
 
